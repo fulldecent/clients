@@ -4,3 +4,4 @@ type Guid = Opaque<string, "Guid">;
 
 type UserId = Opaque<string, "UserId">;
 type OrganizationId = Opaque<string, "OrganizationId">;
+type ProviderId = Opaque<string, "ProviderId">;

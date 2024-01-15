@@ -11,3 +11,6 @@ type PinKey = Opaque<SymmetricCryptoKey, "PinKey">;
 type OrgKey = Opaque<SymmetricCryptoKey, "OrgKey">;
 type ProviderKey = Opaque<SymmetricCryptoKey, "ProviderKey">;
 type CipherKey = Opaque<SymmetricCryptoKey, "CipherKey">;
+
+// asymmetric keys
+type UserPrivateKey = Opaque<Uint8Array, "UserPrivateKey">;
